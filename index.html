@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="author" content="Christian Cruz Mello" />
+    <title>Semáforo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="./bootstrap-5.2.2-dist/css/bootstrap.css" rel="stylesheet">
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body class="bg-dark">
+    <main>
+        <!--Autor-->
+        <h1 class="bg-warning">C.Mello</h1>
+        <div>
+            <!--Imagem Semáforo-->
+            <img src="./img/desligado.png" id='img'>
+        </div>
+        
+        <!--Botões do Semáforo-->
+        <div id='buttons'>
+            <button id='red' class="btn btn-outline-danger mx-2 my-2">Vermelho</button>
+            <button id='yellow' class="btn btn-outline-warning mx-2 my-2">Amarelo</button>
+            <button id='green' class="btn btn-outline-success mx-2 my-2">Verde</button>
+            <button name='teste' id='automatic' class="btn btn-outline-primary mx-2 my-2">Automático</button>
+        </div>
+    </main>
+
+    <script src="./semaforo.js"></script>
+</body>
+
+</html>
